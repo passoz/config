@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	tilix
+	tilix --window-style=borderless
 	#urxvt
 
 # program launcher
