@@ -20,8 +20,8 @@ dropbox &
 # ##############################################################################
 
 # bspc monitor VGA-1 -s HDMI-1
-bspc monitor HDMI-1 -d I II III IV 
-bspc monitor VGA-1 -d V VI VII VIII
+bspc monitor LVDS-1 -d I II III IV V VI 
+# bspc monitor VGA-1 -d V VI VII VIII
 
 # bspc monitor -d I II III IV V VI VII VIII
 
