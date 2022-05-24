@@ -1,2 +1,5 @@
 //@theme "/usr/share/rofi/themes/Pop-Dark.rasi"
-@theme "/usr/share/rofi/themes/Pop-Dark.rasi"
+//@theme "/home/fernando/.config/rofi/Pop-Dark.rasi"
+
+@theme "/home/fernando/.config/polybar/shades/scripts/rofi/launcher.rasi"
+

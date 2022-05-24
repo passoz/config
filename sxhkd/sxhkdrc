@@ -4,7 +4,8 @@
 
 # terminal emulator
 super + Return
-	tilix --window-style=borderless
+	alacritty
+	#tilix --window-style=borderless
 	#urxvt
 
 # program launcher
@@ -12,7 +13,11 @@ super + @space
 	dmenu_run
 
 super + d
-	rofi -show combi -combi-modes "window,run,ssh" -modes combi -font "mononoki Nerd Font Regular 14"
+	rofi -show run 
+	#combi 
+	#-combi-modes "window,run,ssh" -modes combi 
+
+# -font "mononoki Nerd Font Regular 16"
 
 	
 # make sxhkd reload its configuration files:
@@ -124,3 +129,11 @@ super + alt + shift + {h,j,k,l}
 # move a floating window
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+# move window to another desktop
+super + ctrl + alt + {h,l}
+    	bspc node -d {prev, next} -f
+
+# move window to another monitor
+super + ctrl + alt + {j,k}
+    	bspc node -m {prev, next} -f
