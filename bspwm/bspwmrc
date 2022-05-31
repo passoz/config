@@ -9,12 +9,13 @@ xrdb -load ~/.Xresources
 dunst --config $HOME/.config/dunst/dunstrc &
 picom --config $HOME/.config/picom/picom.conf &
 sh ~/.config/polybar/launch.sh --shades
-sh ~/.config/polybar/shades/scripts/colors-dark.sh --purple
-wal -i /home/fernando/Dropbox/images/Wallpapers/bokeh-candy.jpg
+sh ~/.config/polybar/shades/scripts/colors-dark.sh --red
+sh ~/.config/wal/wal.sh
+# wal -i /home/fernando/Dropbox/images/Wallpapers/Paisagem/scenic-view-of-ocean-during-sunset-2304423.jpg
 mpd 
 setxkbmap -model abnt2 -layout br -variant abnt2
 xautolock -detectsleep -time 10 -locker "betterlockscreen -l dim" -notify 30 -notifier "notify-send -u critical -t 30 -- 'LOCKING screen in 30 seconds'" &
-dropbox &
+#dropbox &
 # ##############################################################################
 # #                            GENERAL CONFIGURATION                           #
 # ##############################################################################
@@ -26,9 +27,9 @@ bspc monitor LVDS-1 -d I II III IV V VI
 # bspc monitor -d I II III IV V VI VII VIII
 
 bspc config border_width         0
-bspc config window_gap           10
+bspc config window_gap           12
 
-bspc config top_padding          65
+bspc config top_padding          56
 bspc config bottom_padding       5
 
 bspc config normal_border_color  "#18181B"

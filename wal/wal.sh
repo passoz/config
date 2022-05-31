@@ -1,1 +1,1 @@
-wal -q -i ~/Dropbox/images/Wallpapers/bokeh-candy.jpg > /dev/null
+wal -q -i ~/Dropbox/images/Wallpapers/01-star-wars-star-wars-cinema1.jpg > /dev/null
