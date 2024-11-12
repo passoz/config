@@ -1,5 +1,9 @@
 #!/bin/bash
 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+exit
+
 sudo pacman -Syu
 
 sudo pacman -S --noconfirm --needed \
@@ -131,3 +135,12 @@ asdf global libsql-server latest
 asdf global github-cli latest
 
 asdf reshim
+
+
+
+# Git config section
+
+git config --global user.email "fernandopassoz@gmail.com"
+git config --global user.name "Fernando Passos"
+
+
