@@ -5,7 +5,6 @@ asdf plugin add java
 asdf plugin add nodejs
 asdf plugin add golang
 asdf plugin add rust
-asdf plugin add neovim
 asdf plugin add kubectl
 asdf plugin add opentofu
 asdf plugin add helm
@@ -24,10 +23,9 @@ asdf plugin add libsql-server
 asdf plugin add github-cli
 
 asdf install java openjdk-23.0.1
-asdf install nodejs lts
+asdf install nodejs 22.8.0
 asdf install golang latest
 asdf install rust latest
-asdf install neovim latest
 asdf install kubectl latest
 asdf install opentofu latest
 asdf install helm latest
@@ -46,10 +44,9 @@ asdf install libsql-server latest
 asdf install github-cli latest
 
 asdf global java openjdk-23.0.1
-asdf global nodejs lts
+asdf global nodejs 22.8.0
 asdf global golang latest
 asdf global rust latest
-asdf global neovim latest
 asdf global kubectl latest
 asdf global opentofu latest
 asdf global helm latest

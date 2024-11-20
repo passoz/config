@@ -29,7 +29,6 @@ sudo pacman -S --noconfirm --needed \
   noto-fonts-emoji \
   noto-fonts-cjk \
   noto-fonts-extra \
-  noto-fonts-nerd \
   polybar \
   xorg-server \
   xorg-xinit \
@@ -37,9 +36,12 @@ sudo pacman -S --noconfirm --needed \
   xorg-xsetroot \
   xorg-xset \
   xorg-xprop \
-  jupyter \
   jupyterlab \
   jupyter-notebook \
   transmission-gtk \
   ntfs-3g \
-  base-devel
+  base-devel \
+  ardour \
+  gimp \
+  inkscape \
+  telegram-desktop
