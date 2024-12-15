@@ -44,4 +44,26 @@ sudo pacman -S --noconfirm --needed \
   ardour \
   gimp \
   inkscape \
-  telegram-desktop
+  telegram-desktop \
+  obs-studio \
+  vlc \
+  zellij \
+  zsh \
+  zsh-completions \
+  zsh-syntax-highlighting \
+  zsh-autosuggestions \
+  zsh-history-substring-search \
+  remmina \
+  qjackctl \
+  pipewire-jack \
+  mc \
+  wine \
+  winetricks \
+  wine-gecko \
+  wine-mono \
+  tailscale \
+  xorg-xkill \
+  hyprland \
+  xfce4 \
+  cosmic \
+  dbeaver  \

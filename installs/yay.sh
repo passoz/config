@@ -16,3 +16,5 @@ yay -S --noconfirm --needed \
   yaru-colors-icon-theme \
   stremio \
   obs-studio
+
+yay -Sy --noconfirm rider-eap goland-eap intellij-idea-ue-eap
